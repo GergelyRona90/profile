@@ -6,22 +6,26 @@
   font-size: 100%;
 }
 
-
-
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: linear-gradient(rgb(30,48,56), rgb(148,167,173));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: scroll;
-  height: 100vh;
-  
+  height: 100vh; 
+}
+
+#head, #content {
+  width:90%;
+  margin: 0 auto;
 }
 
 #profile-card {
   width: 850px;
   background-color: rgba(255,255,255,.8);
-  margin: 220px auto;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
   box-shadow: 20px 20px 4px black;
@@ -43,7 +47,6 @@ img:hover{
 }
 
 #name-headline {
-
   margin:10px auto;
   padding: 45px;
   max-width: 50%;
