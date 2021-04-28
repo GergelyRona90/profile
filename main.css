@@ -7,13 +7,15 @@
 }
 #profile-card {
   width: 850px;
-  background-color: rgba(255,255,255,.1);
+  background-color: rgba(255,255,255,.6);
   margin: 220px auto;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
 }
 html {
-    background-image: linear-gradient(rgb(30,48,56), rgb(148,167,173));
+  background-image: linear-gradient(rgb(30,48,56), rgb(148,167,173));
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 body {
