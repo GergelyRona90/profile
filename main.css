@@ -12,6 +12,8 @@ body {
   background-image: linear-gradient(rgb(30,48,56), rgb(148,167,173));
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;
   height: 100vh;
   
 }
