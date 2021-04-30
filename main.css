@@ -20,11 +20,12 @@ body {
 }
 
 #head, #content {
-  width:90%;
+  width:90%;  
   margin: 0 auto;
 }
 
 #profile-card {
+  margin: 0 auto;
   width: 720px;
   max-width: calc (100vw - 10%);
   max-height: calc (100vh - 10%);
@@ -83,7 +84,7 @@ h1 {
   letter-spacing: 0.02em;
   text-align: center;
   margin: 0 auto;
-  font-family: 'Source Sans Pro', sans-serif;
+ font-family: 'Source Sans Pro', sans-serif;
 }
 
 hr {
@@ -139,10 +140,4 @@ h3 {
   letter-spacing: 1.5em;
   color: blue;
 }
-#TD {
-  position: absolute;
-  left: 10px;
-  top: 110px;
-  z-index: -1;
-  width:300px
-}
+
