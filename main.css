@@ -18,14 +18,13 @@ body {
 
 #profile-card {
   margin: 0 auto;
-  width: 720px;
+  width: 820px;
   background-color: rgba(255,255,255,.3);
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
   box-shadow: 20px 20px 4px black;
   border: 2px solid black;
   margin-top: 20vh;
-  max-width: 120vw;
 }
 
 #profile-img {
