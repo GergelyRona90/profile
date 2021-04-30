@@ -26,8 +26,6 @@ body {
 #profile-card {
   margin: 0 auto;
   width: 720px;
-  max-width: calc(100vw - 10%);
-  max-height: calc(100vh - 10%);
   height: 750px;
   background-color: rgba(255,255,255,.8);
   border-top-left-radius: 50%;
