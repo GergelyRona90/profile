@@ -52,8 +52,8 @@ body {
   border-bottom-right-radius: 75%;
 }
 
-#content{
-
+strong {
+  font-weight: bolder;
 }
 
 h1 {
@@ -92,8 +92,6 @@ h2 {
 }
 
 #skills {
-  display: flex;
-  align-items: center;
   margin-left: 130px
 }
 
@@ -107,13 +105,15 @@ h2 {
   height: 58px;
 }
 
+h3 {
+}
 #contact {
   text-align: center;
   margin: 0 auto;
   padding: 5px;
   border: 1px solid black;
   width: 300px;
-  margin-top: 20px;
+  margin-top: 100px;
   margin-bottom: 10px;
 }
 
