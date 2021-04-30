@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgb(30,48,56), rgb(148,167,173));
+  background-image: linear-gradient(rgb(30,48,56), rgb(148,167,173),rgb(218,211,203), rgb(233,201,154));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -19,7 +19,7 @@ body {
 #profile-card {
   margin: 0 auto;
   width: 720px;
-  background-color: rgba(255,255,255,.8);
+  background-color: rgba(255,255,255,.3);
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
   box-shadow: 20px 20px 4px black;
@@ -71,9 +71,12 @@ h1 {
   font-size: 20px;
   line-height: 1.3em;
   letter-spacing: 0.02em;
-  text-align: center;
+  text-align: justify;
   margin: 0 auto;
- font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#about::first-letter {
+  font-size: 30px
 }
 
 hr {
@@ -85,35 +88,30 @@ hr {
 
 h2 {
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
   font-size: 30px;
   font-style: italic; 
+  margin: 20px auto;
 }
 
-#skills {
-  margin-left: 130px
+.right {
+  float:right;
+  width: 200px;
+  margin: 0 auto;
 }
 
-#FirstColoumn, #SecondColoumn {
-  width: 50%;
-  float: left; 
-  list-style: disc;
+.left {
+  float:left;
+  width: 200px;
+  margin: 0 auto;
 }
 
-#SecondColoumn {
-  height: 58px;
-}
-
-h3 {
-}
 #contact {
   text-align: center;
   margin: 0 auto;
   padding: 5px;
   border: 1px solid black;
   width: 300px;
-  margin-top: 100px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
@@ -131,3 +129,6 @@ h3 {
   color: blue;
 }
 
+table {
+  margin: 0 auto;
+}
