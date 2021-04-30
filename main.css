@@ -14,10 +14,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-attachment: scroll;
-  height: 100vh;
+  background-attachment: fixed;
   width: auto;
-  margin-top: 150px;
+  
 }
 
 #head, #content {
@@ -27,13 +26,14 @@ body {
 
 #profile-card {
   width: 720px;
-  max-width: 720px;
+  max-width: calc (100vw - 10%);
   height: 750px;
   background-color: rgba(255,255,255,.8);
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
   box-shadow: 20px 20px 4px black;
-  border: 2px solid black
+  border: 2px solid black;
+  margin-top: 180px; 
 }
 
 #profile-img {
