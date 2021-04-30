@@ -25,6 +25,7 @@ body {
   box-shadow: 20px 20px 4px black;
   border: 2px solid black;
   margin-top: 20vh;
+  max-width: 120vw;
 }
 
 #profile-img {
