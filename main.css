@@ -25,6 +25,7 @@ body {
 
 #profile-card {
   margin: 0 auto;
+  max-width: calc(100vw - 20px);
   width: 720px;
   background-color: rgba(255,255,255,.8);
   border-top-left-radius: 50%;
