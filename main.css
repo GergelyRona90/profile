@@ -3,7 +3,7 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:center; 
   background-image: linear-gradient(rgb(30,48,56), rgb(148,167,173),rgb(218,211,203), rgb(233,201,154));
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,14 +92,6 @@ h2 {
   margin: 20px auto;
 }
 
-
-.left {
-  float:left;
-  width: 200px;
-  margin: 0 auto;
-  text-align: justify;
-}
-
 #contact {
   text-align: center;
   margin: 0 auto;
@@ -108,6 +100,7 @@ h2 {
   width: 300px;
   margin-top: 20px;
   margin-bottom: 10px;
+  clear: both;
 }
 
 i:hover {
@@ -119,6 +112,10 @@ h3 {
   font-size: 22px;
 }
 
+.skill-lista {
+  list-style: circle;
+}
+
 .links {
   margin-top: 10px;
   list-style: none;
@@ -126,6 +123,14 @@ h3 {
   letter-spacing: 1.5em;
   color: blue;
 }
-table {
-  margin: 0 auto;
+
+
+#firstcoloumn, #secondcoloumn {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+#skills {
+  display: flex;
+  justify-content: center;
 }
