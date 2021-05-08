@@ -76,7 +76,7 @@ h1 {
   font-family: 'Source Sans Pro', sans-serif;
 }
 #about::first-letter {
-  font-size: 30px
+  font-size: 30px;
 }
 
 hr {
@@ -105,7 +105,7 @@ h2 {
 
 i:hover {
   color:blue;
-  transform: scale(1.2)
+  transform: scale(1.2);
 }
 
 h3 {
