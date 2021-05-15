@@ -10,15 +10,9 @@ body {
   background-position: center center;
   background-attachment: fixed;
 }
-
-#head, #content {
-  width:90%;  
-  margin: 0 auto;
-}
-
 #profile-card {
   margin: 0 auto;
-  width: 820px;
+  width: 51rem;
   background-color: rgba(255,255,255,.3);
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
@@ -27,11 +21,16 @@ body {
   margin-top: 20vh;
 }
 
+#head, #content {
+  width:90%;  
+  margin: 0 auto;
+}
+
 #profile-img {
-  width: 200px;
-  height: 200px;
+  width: 27%;
+  height: 27%;  
   border-radius: 50px;
-  margin-top: -120px;
+  margin-top: -10vh;
   border: 3px solid white;
 }
 
@@ -133,5 +132,4 @@ h3 {
   letter-spacing: 1.5em;
   color: blue;
 }
-
 
